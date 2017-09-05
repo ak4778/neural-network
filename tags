@@ -1,0 +1,279 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Ann	nn.h	/^struct Ann {$/;"	s
+Ann2Tcl	nn.c	/^void Ann2Tcl(struct Ann *net) {$/;"	f
+AnnAdjustWeights	nn.c	/^void AnnAdjustWeights(struct Ann *net, int setlen) {$/;"	f
+AnnAdjustWeightsResilientBP	nn.c	/^void AnnAdjustWeightsResilientBP(struct Ann *net) {$/;"	f
+AnnAlloc	nn.c	/^struct Ann *AnnAlloc(int layers) {$/;"	f
+AnnCalculateGradients	nn.c	/^void AnnCalculateGradients(struct Ann *net, float *desired) {$/;"	f
+AnnCalculateGradientsTrivial	nn.c	/^void AnnCalculateGradientsTrivial(struct Ann *net, float *desired) {$/;"	f
+AnnCalculateOutputError	nn.c	/^void AnnCalculateOutputError(struct Ann *net, float *desired) {$/;"	f
+AnnClone	nn.c	/^struct Ann *AnnClone(struct Ann* net) {$/;"	f
+AnnCountWeights	nn.c	/^size_t AnnCountWeights(struct Ann *net) {$/;"	f
+AnnCreateNet	nn.c	/^struct Ann *AnnCreateNet(int layers, int *units) {$/;"	f
+AnnCreateNet2	nn.c	/^struct Ann *AnnCreateNet2(int iunits, int ounits) {$/;"	f
+AnnCreateNet3	nn.c	/^struct Ann *AnnCreateNet3(int iunits, int hunits, int ounits) {$/;"	f
+AnnCreateNet4	nn.c	/^struct Ann *AnnCreateNet4(int iunits, int hunits, int hunits2, int ounits) {$/;"	f
+AnnFree	nn.c	/^void AnnFree(struct Ann *net)$/;"	f
+AnnFreeLayer	nn.c	/^void AnnFreeLayer(struct AnnLayer *layer)$/;"	f
+AnnGDEpoch	nn.c	/^float AnnGDEpoch(struct Ann *net, float *input, float *desidered, int setlen) {$/;"	f
+AnnGlobalError	nn.c	/^float AnnGlobalError(struct Ann *net, float *desired) {$/;"	f
+AnnInitLayer	nn.c	/^int AnnInitLayer(struct Ann *net, int i, int units, int bias) {$/;"	f
+AnnLayer	nn.h	/^struct AnnLayer {$/;"	s
+AnnPrint	nn.c	/^void AnnPrint(struct Ann *net) {$/;"	f
+AnnResetLayer	nn.c	/^void AnnResetLayer(struct AnnLayer *layer) {$/;"	f
+AnnResetSgradient	nn.c	/^void AnnResetSgradient(struct Ann *net) {$/;"	f
+AnnResilientBPEpoch	nn.c	/^float AnnResilientBPEpoch(struct Ann *net, float *input, float *desired, int setlen) {$/;"	f
+AnnScaleWeights	nn.c	/^void AnnScaleWeights(struct Ann *net, float factor) {$/;"	f
+AnnSetDeltas	nn.c	/^void AnnSetDeltas(struct Ann *net, float val) {$/;"	f
+AnnSetInput	nn.c	/^void AnnSetInput(struct Ann *net, float *input)$/;"	f
+AnnSetRandomWeights	nn.c	/^void AnnSetRandomWeights(struct Ann *net) {$/;"	f
+AnnSimulate	nn.c	/^void AnnSimulate(struct Ann *net) {$/;"	f
+AnnSimulateError	nn.c	/^float AnnSimulateError(struct Ann *net, float *input, float *desired) {$/;"	f
+AnnTestClassificationsError	nn.c	/^static int AnnTestClassificationsError(struct Ann *net, float *desired) {$/;"	f	file:
+AnnTestError	nn.c	/^void AnnTestError(struct Ann *net, float *input, float *desired, int setlen, float *avgerr, float *classerr) {$/;"	f
+AnnTrain	nn.c	/^float AnnTrain(struct Ann *net, float *input, float *desired, float maxerr, int maxepochs, int setlen, int algo) {$/;"	f
+AnnUpdateDeltasGD	nn.c	/^void AnnUpdateDeltasGD(struct Ann *net) {$/;"	f
+AnnUpdateSgradient	nn.c	/^void AnnUpdateSgradient(struct Ann *net) {$/;"	f
+DEFAULT_LEARN_RATE	nn.h	97;"	d
+DEFAULT_RPROP_MAXUPDATE	nn.h	94;"	d
+DEFAULT_RPROP_MINUPDATE	nn.h	95;"	d
+DEFAULT_RPROP_NMINUS	nn.h	92;"	d
+DEFAULT_RPROP_NPLUS	nn.h	93;"	d
+DELTA	nn.h	77;"	d
+ERROR	nn.h	61;"	d
+GRADIENT	nn.h	74;"	d
+GTRIVIAL_DELTA	nn.c	525;"	d	file:
+INPUT_NODE	nn.h	82;"	d
+INPUT_UNITS	nn.h	84;"	d
+LAYERS	nn.h	78;"	d
+LEARN_RATE	nn.h	89;"	d
+MAX	nn.h	102;"	d
+MIN	nn.h	103;"	d
+NN_ALGO_BPROP	nn.h	98;"	d
+NN_ALGO_GD	nn.h	99;"	d
+NRClass_RedisCommand	neuralredis.c	/^int NRClass_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRClone	neuralredis.c	/^NRTypeObject *NRClone(NRTypeObject *o, int newid) {$/;"	f
+NRCollectThreads	neuralredis.c	/^int NRCollectThreads(RedisModuleCtx *ctx) {$/;"	f
+NRCreate_RedisCommand	neuralredis.c	/^int NRCreate_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRDataset	neuralredis.c	/^typedef struct NRDataset {$/;"	s	file:
+NRDataset	neuralredis.c	/^} NRDataset;$/;"	t	typeref:struct:NRDataset	file:
+NRDatasetFree	neuralredis.c	/^void NRDatasetFree(NRDataset *dset) {$/;"	f
+NRGenericRun_RedisCommand	neuralredis.c	/^int NRGenericRun_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc, int output_class) {$/;"	f
+NRGetdata_RedisCommand	neuralredis.c	/^int NRGetdata_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRInfo_RedisCommand	neuralredis.c	/^int NRInfo_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRMilliseconds	neuralredis.c	/^long long NRMilliseconds(void) {$/;"	f
+NRNextId	neuralredis.c	/^uint64_t NRNextId = 1; \/* Next neural network unique ID. *\/$/;"	v
+NRObserve_RedisCommand	neuralredis.c	/^int NRObserve_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRPendingTraining	neuralredis.c	/^} typedef NRPendingTraining;$/;"	t	file:
+NRPendingTrainingCount	neuralredis.c	/^static int NRPendingTrainingCount = 0; \/* Number of pending trainings. *\/$/;"	v	file:
+NRPendingTrainingMutex	neuralredis.c	/^static pthread_mutex_t NRPendingTrainingMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+NRReset_RedisCommand	neuralredis.c	/^int NRReset_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRRun_RedisCommand	neuralredis.c	/^int NRRun_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRStartTraining	neuralredis.c	/^int NRStartTraining(RedisModuleCtx *ctx, RedisModuleString *key, int dbid, NRTypeObject *nr) {$/;"	f
+NRThreads_RedisCommand	neuralredis.c	/^int NRThreads_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRTrain_RedisCommand	neuralredis.c	/^int NRTrain_RedisCommand(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+NRTrainingThreadMain	neuralredis.c	/^void *NRTrainingThreadMain(void *arg) {$/;"	f
+NRTrainings	neuralredis.c	/^static NRPendingTraining NRTrainings[NR_PENDING_TRAINING_MAX_LEN];$/;"	v	file:
+NRTransferWeights	neuralredis.c	/^void NRTransferWeights(RedisModuleCtx *ctx, NRTypeObject *dst, NRTypeObject *src) {$/;"	f
+NRType	neuralredis.c	/^static RedisModuleType *NRType;$/;"	v	file:
+NRTypeAofRewrite	neuralredis.c	/^void NRTypeAofRewrite(RedisModuleIO *aof, RedisModuleString *key, void *value) {$/;"	f
+NRTypeFree	neuralredis.c	/^void NRTypeFree(void *value) {$/;"	f
+NRTypeInsertData	neuralredis.c	/^void NRTypeInsertData(NRTypeObject *o, float *inputs, float *outputs, int target_ds) {$/;"	f
+NRTypeObject	neuralredis.c	/^} NRTypeObject;$/;"	t	typeref:struct:__anon1	file:
+NRTypeRdbLoad	neuralredis.c	/^void *NRTypeRdbLoad(RedisModuleIO *rdb, int encver) {$/;"	f
+NRTypeRdbLoadDataset	neuralredis.c	/^void NRTypeRdbLoadDataset(RedisModuleIO *rdb, NRDataset *ds, uint32_t ilen, uint32_t olen) {$/;"	f
+NRTypeRdbSave	neuralredis.c	/^void NRTypeRdbSave(RedisModuleIO *rdb, void *value) {$/;"	f
+NRTypeRdbSaveDataset	neuralredis.c	/^void NRTypeRdbSaveDataset(RedisModuleIO *rdb, NRDataset *ds, uint32_t ilen, uint32_t olen) {$/;"	f
+NRTypeReleaseObject	neuralredis.c	/^void NRTypeReleaseObject(NRTypeObject *o) {$/;"	f
+NR_FLAG_AUTO_STOP	neuralredis.c	34;"	d	file:
+NR_FLAG_BACKTRACK	neuralredis.c	36;"	d	file:
+NR_FLAG_CLASSIFIER	neuralredis.c	32;"	d	file:
+NR_FLAG_NONE	neuralredis.c	29;"	d	file:
+NR_FLAG_NORMALIZE	neuralredis.c	33;"	d	file:
+NR_FLAG_OF_DETECTED	neuralredis.c	35;"	d	file:
+NR_FLAG_REGRESSOR	neuralredis.c	31;"	d	file:
+NR_FLAG_TO_PRESIST	neuralredis.c	39;"	d	file:
+NR_FLAG_TO_TRANSFER	neuralredis.c	45;"	d	file:
+NR_FLAG_TRAINING	neuralredis.c	30;"	d	file:
+NR_INSERT_NO_TARGET	neuralredis.c	147;"	d	file:
+NR_INSERT_TEST	neuralredis.c	149;"	d	file:
+NR_INSERT_TRAIN	neuralredis.c	148;"	d	file:
+NR_MAX_LAYERS	neuralredis.c	47;"	d	file:
+NR_PENDING_TRAINING_MAX_LEN	neuralredis.c	96;"	d	file:
+NR_RDB_ENC_VER	neuralredis.c	48;"	d	file:
+NUM_INPUTS	tests/nn-benchmark.c	11;"	d	file:
+NUM_INPUTS	tests/nnbenchmark.c	11;"	d	file:
+NUM_OUTPUTS	tests/nn-benchmark.c	12;"	d	file:
+NUM_OUTPUTS	tests/nnbenchmark.c	12;"	d	file:
+OUTPUT	nn.h	60;"	d
+OUTPUT_NODE	nn.h	81;"	d
+OUTPUT_UNITS	nn.h	83;"	d
+PGRADIENT	nn.h	76;"	d
+REDISMODULE_APIVER_1	redismodule.h	15;"	d
+REDISMODULE_API_FUNC	redismodule.h	112;"	d
+REDISMODULE_ERR	redismodule.h	12;"	d
+REDISMODULE_ERRORMSG_WRONGTYPE	redismodule.h	66;"	d
+REDISMODULE_GET_API	redismodule.h	109;"	d
+REDISMODULE_H	redismodule.h	2;"	d
+REDISMODULE_HASH_CFIELDS	redismodule.h	58;"	d
+REDISMODULE_HASH_DELETE	redismodule.h	63;"	d
+REDISMODULE_HASH_EXISTS	redismodule.h	59;"	d
+REDISMODULE_HASH_NONE	redismodule.h	55;"	d
+REDISMODULE_HASH_NX	redismodule.h	56;"	d
+REDISMODULE_HASH_XX	redismodule.h	57;"	d
+REDISMODULE_KEYTYPE_EMPTY	redismodule.h	25;"	d
+REDISMODULE_KEYTYPE_HASH	redismodule.h	28;"	d
+REDISMODULE_KEYTYPE_LIST	redismodule.h	27;"	d
+REDISMODULE_KEYTYPE_MODULE	redismodule.h	31;"	d
+REDISMODULE_KEYTYPE_SET	redismodule.h	29;"	d
+REDISMODULE_KEYTYPE_STRING	redismodule.h	26;"	d
+REDISMODULE_KEYTYPE_ZSET	redismodule.h	30;"	d
+REDISMODULE_LIST_HEAD	redismodule.h	21;"	d
+REDISMODULE_LIST_TAIL	redismodule.h	22;"	d
+REDISMODULE_NEGATIVE_INFINITE	redismodule.h	69;"	d
+REDISMODULE_NOT_USED	redismodule.h	71;"	d
+REDISMODULE_NO_EXPIRE	redismodule.h	45;"	d
+REDISMODULE_OK	redismodule.h	11;"	d
+REDISMODULE_POSITIVE_INFINITE	redismodule.h	68;"	d
+REDISMODULE_POSTPONED_ARRAY_LEN	redismodule.h	42;"	d
+REDISMODULE_READ	redismodule.h	18;"	d
+REDISMODULE_REPLY_ARRAY	redismodule.h	38;"	d
+REDISMODULE_REPLY_ERROR	redismodule.h	36;"	d
+REDISMODULE_REPLY_INTEGER	redismodule.h	37;"	d
+REDISMODULE_REPLY_NULL	redismodule.h	39;"	d
+REDISMODULE_REPLY_STRING	redismodule.h	35;"	d
+REDISMODULE_REPLY_UNKNOWN	redismodule.h	34;"	d
+REDISMODULE_TYPE_METHOD_VERSION	redismodule.h	98;"	d
+REDISMODULE_WRITE	redismodule.h	19;"	d
+REDISMODULE_ZADD_ADDED	redismodule.h	50;"	d
+REDISMODULE_ZADD_NOP	redismodule.h	52;"	d
+REDISMODULE_ZADD_NX	redismodule.h	49;"	d
+REDISMODULE_ZADD_UPDATED	redismodule.h	51;"	d
+REDISMODULE_ZADD_XX	redismodule.h	48;"	d
+RPROP_INITIAL_DELTA	nn.h	96;"	d
+RPROP_MAXUPDATE	nn.h	87;"	d
+RPROP_MINUPDATE	nn.h	88;"	d
+RPROP_NMINUS	nn.h	85;"	d
+RPROP_NPLUS	nn.h	86;"	d
+RedisModuleBlockedClient	redismodule.h	/^typedef struct RedisModuleBlockedClient RedisModuleBlockedClient;$/;"	t	typeref:struct:RedisModuleBlockedClient
+RedisModuleCallReply	redismodule.h	/^typedef struct RedisModuleCallReply RedisModuleCallReply;$/;"	t	typeref:struct:RedisModuleCallReply
+RedisModuleCmdFunc	redismodule.h	/^typedef int (*RedisModuleCmdFunc) (RedisModuleCtx *ctx, RedisModuleString **argv, int argc);$/;"	t
+RedisModuleCtx	redismodule.h	/^typedef struct RedisModuleCtx RedisModuleCtx;$/;"	t	typeref:struct:RedisModuleCtx
+RedisModuleDigest	redismodule.h	/^typedef struct RedisModuleDigest RedisModuleDigest;$/;"	t	typeref:struct:RedisModuleDigest
+RedisModuleIO	redismodule.h	/^typedef struct RedisModuleIO RedisModuleIO;$/;"	t	typeref:struct:RedisModuleIO
+RedisModuleKey	redismodule.h	/^typedef struct RedisModuleKey RedisModuleKey;$/;"	t	typeref:struct:RedisModuleKey
+RedisModuleString	redismodule.h	/^typedef struct RedisModuleString RedisModuleString;$/;"	t	typeref:struct:RedisModuleString
+RedisModuleString	redismodule.h	334;"	d
+RedisModuleType	redismodule.h	/^typedef struct RedisModuleType RedisModuleType;$/;"	t	typeref:struct:RedisModuleType
+RedisModuleTypeDigestFunc	redismodule.h	/^typedef void (*RedisModuleTypeDigestFunc)(RedisModuleDigest *digest, void *value);$/;"	t
+RedisModuleTypeFreeFunc	redismodule.h	/^typedef void (*RedisModuleTypeFreeFunc)(void *value);$/;"	t
+RedisModuleTypeLoadFunc	redismodule.h	/^typedef void *(*RedisModuleTypeLoadFunc)(RedisModuleIO *rdb, int encver);$/;"	t
+RedisModuleTypeMemUsageFunc	redismodule.h	/^typedef size_t (*RedisModuleTypeMemUsageFunc)(void *value);$/;"	t
+RedisModuleTypeMethods	redismodule.h	/^typedef struct RedisModuleTypeMethods {$/;"	s
+RedisModuleTypeMethods	redismodule.h	/^} RedisModuleTypeMethods;$/;"	t	typeref:struct:RedisModuleTypeMethods
+RedisModuleTypeRewriteFunc	redismodule.h	/^typedef void (*RedisModuleTypeRewriteFunc)(RedisModuleIO *aof, RedisModuleString *key, void *value);$/;"	t
+RedisModuleTypeSaveFunc	redismodule.h	/^typedef void (*RedisModuleTypeSaveFunc)(RedisModuleIO *rdb, void *value);$/;"	t
+RedisModule_Init	redismodule.h	/^static int RedisModule_Init(RedisModuleCtx *ctx, const char *name, int ver, int apiver) {$/;"	f
+RedisModule_OnLoad	neuralredis.c	/^int RedisModule_OnLoad(RedisModuleCtx *ctx, RedisModuleString **argv, int argc) {$/;"	f
+SGRADIENT	nn.h	75;"	d
+SHOBJ_CFLAGS	Makefile	/^	SHOBJ_CFLAGS ?= -Wall -W -O3 -dynamic -fno-common -g -ggdb -std=c99$/;"	m
+SHOBJ_CFLAGS	Makefile	/^	SHOBJ_CFLAGS ?= -Wall -W -O3 -fno-common -g -ggdb -std=c99$/;"	m
+SHOBJ_LDFLAGS	Makefile	/^	SHOBJ_LDFLAGS ?= -bundle -undefined dynamic_lookup$/;"	m
+SHOBJ_LDFLAGS	Makefile	/^	SHOBJ_LDFLAGS ?= -shared$/;"	m
+UNITS	nn.h	79;"	d
+UNUSED	neuralredis.c	22;"	d	file:
+WEIGHT	nn.h	73;"	d
+WEIGHTS	nn.h	80;"	d
+_DEFAULT_SOURCE	neuralredis.c	8;"	d	file:
+__NN_H	nn.h	26;"	d
+aof_rewrite	redismodule.h	/^    RedisModuleTypeRewriteFunc aof_rewrite;$/;"	m	struct:RedisModuleTypeMethods
+class_error	neuralredis.c	/^    float class_error;      \/* Percentage of wrong classifications. *\/$/;"	m	struct:__anon2	file:
+class_to_class_id	examples/banking.rb	/^def class_to_class_id(class_type,class_str)$/;"	f
+class_to_inputs	examples/banking.rb	/^def class_to_inputs(class_type,class_str,numclasses)$/;"	f
+createNRTypeObject	neuralredis.c	/^NRTypeObject *createNRTypeObject(int flags, int *layers, int numlayers, int dset_len, int test_len) {$/;"	f
+csvrow_to_net	examples/banking.rb	/^def csvrow_to_net(row)$/;"	f
+curcycle	neuralredis.c	/^    int curcycle;           \/* Current cycle. *\/$/;"	m	struct:__anon2	file:
+dataset	neuralredis.c	/^    NRDataset dataset;  \/* Training dataset. *\/$/;"	m	struct:__anon1	file:
+dataset_error	neuralredis.c	/^    float dataset_error;    \/* Dataset error in the last cycle. *\/$/;"	m	struct:__anon2	file:
+dataset_error	neuralredis.c	/^    float dataset_error;   \/* Average error in the training dataset. *\/$/;"	m	struct:__anon1	file:
+db_id	neuralredis.c	/^    int db_id;              \/* DB ID where the key is. *\/$/;"	m	struct:__anon2	file:
+delta	nn.h	/^	float *delta;		\/* delta[(i*units)+j] cumulative update *\/$/;"	m	struct:AnnLayer
+digest	redismodule.h	/^    RedisModuleTypeDigestFunc digest;$/;"	m	struct:RedisModuleTypeMethods
+epochs	neuralredis.c	/^    uint32_t epochs;    \/* Number of training epochs so far. *\/$/;"	m	struct:__anon1	file:
+error	nn.h	/^	float *error;		\/* error[i], output error of i-th unit*\/$/;"	m	struct:AnnLayer
+feed_data	examples/titanic.rb	/^def feed_data(r,dataset,mode)$/;"	f
+feed_dataset	examples/circles.rb	/^def feed_dataset(r,count,mode)$/;"	f
+flags	neuralredis.c	/^    uint32_t flags;     \/* NR_FLAG_... *\/$/;"	m	struct:__anon1	file:
+flags	nn.h	/^	int flags;$/;"	m	struct:Ann
+free	redismodule.h	/^    RedisModuleTypeFreeFunc free;$/;"	m	struct:RedisModuleTypeMethods
+gen_dataset	tests/nn-benchmark.c	/^void gen_dataset(struct Ann *nn, float **inputs, float **outputs, int setsize) {$/;"	f
+gen_dataset	tests/nnbenchmark.c	/^void gen_dataset(struct Ann *nn, float **inputs, float **outputs, int setsize) {$/;"	f
+get_error	examples/iris.rb	/^def get_error(r)$/;"	f
+get_sentences	examples/sentiment.rb	/^def get_sentences(filename)$/;"	f
+gradient	nn.h	/^	float *gradient;	\/* gradient[(i*units)+j] gradient *\/$/;"	m	struct:AnnLayer
+id	neuralredis.c	/^    uint64_t id;        \/* Neural network unique ID. *\/$/;"	m	struct:__anon1	file:
+in_progress	neuralredis.c	/^    int in_progress;        \/* 0 if training terminated. *\/$/;"	m	struct:__anon2	file:
+inorm	neuralredis.c	/^    float *inorm;          \/* Inputs normalization factors. *\/$/;"	m	struct:__anon1	file:
+inputs	neuralredis.c	/^    float *inputs, *outputs;$/;"	m	struct:NRDataset	file:
+insert_data	examples/mnist-load-data.rb	/^def insert_data(r,prefix,target,count)$/;"	f
+insert_data	examples/sentiment.rb	/^def insert_data(r,dirname,sentiment)$/;"	f
+interactive	examples/sentiment.rb	/^def interactive(r)$/;"	f
+is_training	examples/iris.rb	/^def is_training(r)$/;"	f
+key	neuralredis.c	/^    RedisModuleString *key; \/* Key name of the NN we are training.$/;"	m	struct:__anon2	file:
+layer	nn.h	/^	struct AnnLayer *layer;$/;"	m	struct:Ann	typeref:struct:Ann::AnnLayer
+learn_rate	nn.h	/^        float learn_rate; \/* Used for GD training. *\/$/;"	m	struct:Ann
+len	neuralredis.c	/^    uint32_t len, maxlen;$/;"	m	struct:NRDataset	file:
+load_banking	examples/banking.rb	/^def load_banking(c,r)$/;"	f
+main	tests/n2.c	/^int main(void) {$/;"	f
+main	tests/nn-benchmark.c	/^int main(void) {$/;"	f
+main	tests/nn-test-1.c	/^int main(void) {$/;"	f
+main	tests/nn-test-2.c	/^int main(void) {$/;"	f
+main	tests/nnbenchmark.c	/^int main(void) {$/;"	f
+main	tests/nntest1.c	/^int main(void) {$/;"	f
+main	tests/nntest2.c	/^int main(void) {$/;"	f
+main	tests/nt.c	/^int main(void) {$/;"	f
+maxlen	neuralredis.c	/^    uint32_t len, maxlen;$/;"	m	struct:NRDataset	file:
+mem_usage	redismodule.h	/^    RedisModuleTypeMemUsageFunc mem_usage;$/;"	m	struct:RedisModuleTypeMethods
+mstime	tests/nn-benchmark.c	/^long long mstime(void) {$/;"	f
+mstime	tests/nnbenchmark.c	/^long long mstime(void) {$/;"	f
+mstime_t	redismodule.h	/^typedef long long mstime_t;$/;"	t
+nn	neuralredis.c	/^    struct Ann *nn;     \/* Neural network structure. *\/$/;"	m	struct:__anon1	typeref:struct:__anon1::Ann	file:
+nr	neuralredis.c	/^    NRTypeObject *nr;       \/* A copy of the NN we are training. *\/$/;"	m	struct:__anon2	file:
+num_layers	nn.h	/^	int num_layers;$/;"	m	struct:Ann
+onorm	neuralredis.c	/^    float *onorm;          \/* Outputs normalization factors. *\/$/;"	m	struct:__anon1	file:
+output	nn.h	/^	float *output;		\/* output[i], output of i-th unit *\/$/;"	m	struct:AnnLayer
+outputs	neuralredis.c	/^    float *inputs, *outputs;$/;"	m	struct:NRDataset	file:
+pgradient	nn.h	/^	float *pgradient;	\/* pastgradient[(i*units)+j] t-1 gradient *\/$/;"	m	struct:AnnLayer
+print_map	examples/circles.rb	/^def print_map(r)$/;"	f
+rdb_load	redismodule.h	/^    RedisModuleTypeLoadFunc rdb_load;$/;"	m	struct:RedisModuleTypeMethods
+rdb_save	redismodule.h	/^    RedisModuleTypeSaveFunc rdb_save;$/;"	m	struct:RedisModuleTypeMethods
+relu	nn.c	/^float relu(float x) {$/;"	f
+rprop_maxupdate	nn.h	/^	float rprop_maxupdate;$/;"	m	struct:Ann
+rprop_minupdate	nn.h	/^	float rprop_minupdate;$/;"	m	struct:Ann
+rprop_nminus	nn.h	/^	float rprop_nminus;$/;"	m	struct:Ann
+rprop_nplus	nn.h	/^	float rprop_nplus;$/;"	m	struct:Ann
+sentences_to_inputs	examples/sentiment.rb	/^def sentences_to_inputs(sentences)$/;"	f
+sgradient	nn.h	/^	float *sgradient;	\/* gradient for the full training set *\/$/;"	m	struct:AnnLayer
+sigmoid	nn.c	/^float sigmoid(float x) {$/;"	f
+sign	nn.c	/^float sign(float n) {$/;"	f
+test	neuralredis.c	/^    NRDataset test;     \/* Testing dataset. *\/$/;"	m	struct:__anon1	file:
+test_class_error	neuralredis.c	/^    float test_class_error;    \/* Percentage of wrong classifications in test$/;"	m	struct:__anon1	file:
+test_error	neuralredis.c	/^    float test_error;       \/* Test error in the last cycle. *\/$/;"	m	struct:__anon2	file:
+test_error	neuralredis.c	/^    float test_error;      \/* Average error in the test dataset. *\/$/;"	m	struct:__anon1	file:
+test_it	examples/sentiment.rb	/^def test_it(r,filename,expected)$/;"	f
+tid	neuralredis.c	/^    pthread_t tid;          \/* Thread ID of the trainer. *\/$/;"	m	struct:__anon2	file:
+train_iris	examples/iris.rb	/^def train_iris(c,r)$/;"	f
+training_max_cycles	neuralredis.c	/^    uint64_t training_max_cycles; \/* Max cycles of a single training. *\/$/;"	m	struct:__anon1	file:
+training_max_ms	neuralredis.c	/^    uint64_t training_max_ms; \/* Max time of a single training. *\/$/;"	m	struct:__anon1	file:
+training_total_ms	neuralredis.c	/^    uint64_t training_total_ms;   \/* Total milliseconds time of training. *\/$/;"	m	struct:__anon1	file:
+training_total_steps	neuralredis.c	/^    uint64_t training_total_steps; \/* How many steps of trainig the network$/;"	m	struct:__anon1	file:
+uname_S	Makefile	/^uname_S := $(shell sh -c 'uname -s 2>\/dev\/null || echo not')$/;"	m
+units	nn.h	/^	int units;$/;"	m	struct:AnnLayer
+version	redismodule.h	/^    uint64_t version;$/;"	m	struct:RedisModuleTypeMethods
+wait_end_of_training	examples/iris.rb	/^def wait_end_of_training(r)$/;"	f
+weight	nn.h	/^	float *weight;		\/* weight[(i*units)+j] *\/$/;"	m	struct:AnnLayer
