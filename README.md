@@ -10,7 +10,7 @@ Neural network implements:
 * Fully connected neural networks using the RPROP (Resilient back propagation) learning algorithm.
 * Automatic training with simple overtraining detection.
 
-An example of number array identification with blurred array number 7:
+An example of number array Recognition with blurred array number 7:
 
 cd test
 
