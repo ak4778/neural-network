@@ -11,9 +11,13 @@ Neural network implements:
 * Automatic training with simple overtraining detection.
 
 an example of number array identification with blurred array number 7:
+
 cd test
+
 make
+
 ./nd
+
 
 After training:
 
@@ -128,6 +132,7 @@ predict number is 8
 
 predict number is 9
 
+blurred number 7
                 
     1 1 1 1     
             1   
