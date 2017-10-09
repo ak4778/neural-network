@@ -2,6 +2,7 @@
  * as a Redis module.
  *
  * Check https://github.com/antirez/neural-redis/ for more information
+ * http://www.cnblogs.com/qw12/tag/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/default.html?page=2
  *
  */
 
